@@ -1,0 +1,26 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/*.html",
+    "watch": "parcel watch ./src/*.html",
+    "open": "parcel serve ./src/*.html",
+    "build": "parcel build ./src/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "babel-polyfill": "^6.26.0",
+    "gsap": "^3.2.6",
+    "jquery": "^3.5.0",
+    "normalize.css": "^8.0.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "sass": "^1.26.5"
+  }
+}
