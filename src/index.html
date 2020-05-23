@@ -11,11 +11,17 @@
       <div id="preloader-inner" class="preloader__inner"></div>
     </div>
 
-    <a href="index.html">Go to Home</a><br>
-    <a href="about.html" data-pjax-link="halfscreenSlider">Go to About</a>
+    <a href="index.html" data-pjax-link="simple">Go to Home</a><br>
+    <a href="about.html" data-pjax-link="simple">Go to About</a><br>
 
     <main data-barba="container" data-barba-namespace="home">
-        <h1>Hello From Home Page</h1>
+        <a class="link" href="contact.html" data-pjax-link="image">
+          <img class="image" src="bg-4.jpg" alt="some shit">
+        </a>
+    
+        <a class="link" href="about.html" data-pjax-link="image">
+          <img class="image" src="bg-1.jpg" alt="some shit">
+        </a>
     </main>
 
     <script src="./js/index.js"></script>

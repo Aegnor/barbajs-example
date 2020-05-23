@@ -18,7 +18,8 @@
     "gsap": "^3.2.6",
     "jquery": "^3.5.0",
     "normalize.css": "^8.0.1",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.3.1"
   },
   "devDependencies": {
     "sass": "^1.26.5"

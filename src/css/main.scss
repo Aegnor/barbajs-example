@@ -5,6 +5,9 @@ body{
     color: #fff;
     font-size: 60px;
 }
+*{
+    box-sizing: border-box;
+}
 .preloader{
     position: fixed;
     top: 0;
@@ -14,6 +17,7 @@ body{
     pointer-events: none;
     opacity: 0;
     visibility: hidden;
+    z-index: 3;
     &__inner{
         position: absolute;
         top: 0;
@@ -22,4 +26,54 @@ body{
         width: 100%;
         background-color: #f6f7f8;
     }
+}
+
+.link{
+    text-decoration: none;
+}
+.image{
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+}
+
+#clone-container{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.is-clone{
+    position: fixed;
+    top: -100%;
+    left: -100%;
+    z-index: -3;
+    object-fit: cover;
+}
+
+.shit{
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.image-container{
+    margin-top: 180px;
+}
+.fullscreen{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.halfscreen{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+main{
+    position: relative;
+    z-index: 1;
 }
