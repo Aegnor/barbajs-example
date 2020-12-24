@@ -1,27 +1,33 @@
 {
-  "name": "parcel",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "parcel ./src/*.html",
-    "watch": "parcel watch ./src/*.html",
-    "open": "parcel serve ./src/*.html",
-    "build": "parcel build ./src/*.html"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@barba/core": "^2.9.7",
-    "babel-polyfill": "^6.26.0",
-    "gsap": "^3.2.6",
-    "jquery": "^3.5.0",
-    "normalize.css": "^8.0.1",
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-static-files-copy": "^2.3.1"
-  },
-  "devDependencies": {
-    "sass": "^1.26.5"
-  }
+    "name": "parcel",
+    "version": "1.0.0",
+    "description": "Some workaround with barbajs",
+    "main": "index.js",
+    "private": true,
+    "author": "Jenkins <12alexman@gmail.com>",
+    "license": "ISC",
+    "repository": "https://github.com/SBRSV/BasicPageTransitionBarbaJS",
+    "keywords": [
+        "barbajs",
+        "js",
+        "page-transitions"
+    ],
+    "scripts": {
+        "start": "parcel ./src/*.html",
+        "watch": "parcel watch ./src/*.html",
+        "open": "parcel serve ./src/*.html",
+        "build": "parcel build ./src/*.html"
+    },
+    "dependencies": {
+        "@barba/core": "^2.9.7",
+        "babel-polyfill": "^6.26.0",
+        "gsap": "^3.2.6",
+        "jquery": "^3.5.0",
+        "normalize.css": "^8.0.1",
+        "parcel-bundler": "^1.12.4",
+        "parcel-plugin-static-files-copy": "^2.3.1"
+    },
+    "devDependencies": {
+        "sass": "^1.26.5"
+    }
 }
