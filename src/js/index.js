@@ -3,8 +3,8 @@ import gsap from 'gsap';
 import $ from 'jquery';
 import delay from './utils/dom';
 import 'babel-polyfill'
-import  '../bg-1.jpg'
-import  '../bg-4.jpg'
+import  '../images/bg-1.jpg'
+import  '../images/bg-4.jpg'
 
 const 
     preloader = document.getElementById('preloader'),
