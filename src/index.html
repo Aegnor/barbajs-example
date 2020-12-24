@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>My First Parcel App</title>
-    <link rel="stylesheet" href="./css/main.scss"></head>
-  </head>
-  <body data-barba="wrapper">
+    <head>
+        <meta charset="utf-8"/>
+        <title>My First Parcel App</title>
+        <link rel="stylesheet" href="./css/main.scss">
+    </head>
+</head>
+    <body data-barba="wrapper">
+        <div id="preloader" class="preloader">
+            <div id="preloader-inner" class="preloader__inner"></div>
+        </div>
 
-    <div id="preloader" class="preloader">
-      <div id="preloader-inner" class="preloader__inner"></div>
-    </div>
+        <a href="index.html" data-pjax-link="simple">Go to Home</a><br>
+        <a href="about.html" data-pjax-link="simple">Go to About</a><br>
 
-    <a href="index.html" data-pjax-link="simple">Go to Home</a><br>
-    <a href="about.html" data-pjax-link="simple">Go to About</a><br>
+        <main data-barba="container" data-barba-namespace="home">
+            <a class="link" href="contact.html" data-pjax-link="image">
+                <img class="image" src="images/bg-4.jpg" alt="image 1">
+            </a>
 
-    <main data-barba="container" data-barba-namespace="home">
-        <a class="link" href="contact.html" data-pjax-link="image">
-          <img class="image" src="bg-4.jpg" alt="some shit">
-        </a>
-    
-        <a class="link" href="about.html" data-pjax-link="image">
-          <img class="image" src="bg-1.jpg" alt="some shit">
-        </a>
-    </main>
-
-    <script src="./js/index.js"></script>
-  </body>
+            <a class="link" href="about.html" data-pjax-link="image">
+                <img class="image" src="images/bg-1.jpg" alt="image 2">
+            </a>
+        </main>
+        <script src="./js/index.js"></script>
+    </body>
 </html>
