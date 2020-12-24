@@ -1,14 +1,18 @@
 @import 'normalize.css';
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #000000;
     color: #fff;
     font-size: 60px;
 }
-*{
-    box-sizing: border-box;
-}
-.preloader{
+
+.preloader {
     position: fixed;
     top: 0;
     left: 0;
@@ -18,6 +22,7 @@ body{
     opacity: 0;
     visibility: hidden;
     z-index: 3;
+
     &__inner{
         position: absolute;
         top: 0;
@@ -28,16 +33,17 @@ body{
     }
 }
 
-.link{
+.link {
     text-decoration: none;
 }
-.image{
+
+.image {
     height: 400px;
     width: 500px;
     object-fit: cover;
 }
 
-#clone-container{
+#clone-container {
     position: relative;
     top: 0;
     left: 0;
@@ -46,7 +52,7 @@ body{
     z-index: 2;
 }
 
-.is-clone{
+.is-clone {
     position: fixed;
     top: -100%;
     left: -100%;
@@ -54,26 +60,29 @@ body{
     object-fit: cover;
 }
 
-.shit{
+.shit {
     height: 400px;
     width: 500px;
     object-fit: cover;
 }
 
-.image-container{
+.image-container {
     margin-top: 180px;
 }
-.fullscreen{
+
+.fullscreen {
     height: 100vh;
     width: 100%;
     object-fit: cover;
 }
-.halfscreen{
+
+.halfscreen {
     height: 100vh;
     width: 100%;
     object-fit: cover;
 }
-main{
+
+main {
     position: relative;
     z-index: 1;
 }
