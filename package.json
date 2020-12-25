@@ -6,7 +6,10 @@
     "private": true,
     "author": "Jenkins <12alexman@gmail.com>",
     "license": "ISC",
-    "repository": "https://github.com/SBRSV/BasicPageTransitionBarbaJS",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SBRSV/BasicPageTransitionBarbaJS"
+    },
     "keywords": [
         "barbajs",
         "js",
@@ -23,8 +26,6 @@
         "@barba/prefetch": "^2.1.10",
         "babel-polyfill": "^6.26.0",
         "gsap": "^3.2.6",
-        "jquery": "^3.5.0",
-        "normalize.css": "^8.0.1",
         "parcel-bundler": "^1.12.4",
         "parcel-plugin-static-files-copy": "^2.3.1"
     },
